@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="C:\Users\manik\eclipse-workspace\bootstrap1\webcontent\bootstrap-5.3.0-dist\css/bootstrap.min.css">     
+    <title>Day3</title>
+    <style>
+        #form1 {
+            align-content: center;
+            box-shadow: 10px rgb(15, 150, 218);
+            width: 100%;
+            font-size: 20px;
+            color: black;
+            font-style: bold;
+        }
+    </style>
+</head>
+<body>
+    <h2><center>Registration Form<img src="http://blogs.uww.edu/instructional/files/2017/04/shutterstock_5002402212.png" width=40px height=40px></center></h2>
+    <!-- Inline CSS always belongs inside the head tag -->
+    <style>
+        /* Three selectors */
+        body {
+            background-color: rgb(236, 248, 248);
+        }
+        h2 {
+            color: white;
+            background-color: black;
+            text-align: center;
+            font-size: 40px;
+            text-shadow: 2px 2px red;
+            font-style: bold;
+            width: 100%;
+        }
+    </style>
+    <div id="form1" align="center">
+        <br>
+        <label for="firstName">Enter the First name:</label>
+        <input type="text" id="firstName"><br><br>
+
+        <label for="secondName">Enter the Second name:</label>
+        <input type="text" id="secondName"><br><br>
+
+        <label for="rollNumber">Roll number:</label>
+        <input type="text" id="rollNumber"><br><br>
+
+        <label>Gender:</label>
+        <input type="radio" id="male" name="gender"><label for="male">Male</label>
+        <input type="radio" id="female" name="gender"><label for="female">Female</label><br><br>
+
+        <label for="dob">Date of Birth:</label>
+        <input type="date" id="dob"><br><br>
+
+        <label>City:</label>
+        <input type="checkbox" id="bangalore" name="place"><label for="bangalore">Bangalore</label>
+        <input type="checkbox" id="hyderabad" name="place"><label for="hyderabad">Hyderabad</label>
+        <input type="checkbox" id="chennai" name="place"><label for="chennai">Chennai</label><br><br>
+
+        <label for="branch">Branch:</label>
+        <select id="branch">
+            <option>CSE</option>
+            <option>ECE</option>
+            <option>EEE</option>
+            <option>IT</option>
+            <option>Civil</option>
+            <option>Mech</option>
+        </select><br><br>
+
+        <label for="startTime">Duration:</label>
+        <input type="time" id="startTime"> to <input type="time" id="endTime"><br><br>
+
+        <label for="email">Mail id:</label>
+        <input type="email" id="email"> <button style="background-color: aquamarine;">OK</button><br><br>
+
+        <label for="password">Password:</label>
+        <input type="password" id="password"><br><br>
+
+        <button style="background-color: rgb(67, 231, 67); color: blue; padding: 10px 10px; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">SUBMIT</button>
+    </div>
+</body>
+</html>
